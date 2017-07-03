@@ -1,7 +1,5 @@
 'use strict';
 
-// const { generateImage } = require('random-ascii-image-generator')
-
 const express = require('express')
 const app = express()
 const session = require('express-session')
@@ -12,13 +10,9 @@ const db = require('../db')
 const path = require('path');
 const passport = require('passport')
 
-// generateImage()
 
 app.use(volleyball)
 
-// app.use(session({
-// 	secret: 'ihopethisworks'
-// }))
 
 app.use(bodyParser.urlencoded({ extended:true})); 
 app.use(bodyParser.json());

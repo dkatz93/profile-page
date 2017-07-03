@@ -1,7 +1,7 @@
 {
-  "name": "starting-point",
+  "name": "DK-profile",
   "version": "1.0.0",
-  "description": "This is a starting point for a react web app.",
+  "description": "This is Danielle's profile page.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,15 +11,9 @@
     "start": "webpack -w & nodemon server/index.js"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dkatz93/starting-point.git"
+    "type": "git"
   },
   "author": "Danielle Katz",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dkatz93/starting-point/issues"
-  },
-  "homepage": "https://github.com/dkatz93/starting-point#readme",
   "dependencies": {
     "axios": "^0.15.3",
     "babel": "^6.23.0",
@@ -40,6 +34,7 @@
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-redux": "^5.0.3",
+    "react-router": "2.8.1",
     "redux": "^3.6.0",
     "redux-thunk": "^2.2.0",
     "sequelize": "^3.30.2",
